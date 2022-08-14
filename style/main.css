@@ -404,13 +404,6 @@ div.btn-log {
   }
 }
 
-.orange-png {
-  width: 100%;
-}
-
-.mobile {
-}
-
 @media screen and (max-width: 900px) {
   .mobile {
     margin-right: 22px;
