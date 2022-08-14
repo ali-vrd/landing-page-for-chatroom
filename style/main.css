@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -356,10 +356,38 @@ div.btn-log {
   margin-top: 100px;
 }
 
+@media screen and (max-width: 900px) {
+  .orange {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .part1 {
+    width: 100%;
+  }
+}
+
 .text-of-orange {
   font-size: 40px;
   font-weight: bold;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .text-of-orange {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .part2 {
+    width: 100%;
+  }
 }
 
 .sub-text-orange {
@@ -368,6 +396,34 @@ div.btn-log {
   background-color: #353535;
   color: white;
 }
+
+@media screen and (max-width: 900px) {
+  .sub-text-orange {
+    width: 100%;
+    margin-right: 200px;
+  }
+}
+
+.orange-png {
+  width: 100%;
+}
+
+.mobile {
+}
+
+@media screen and (max-width: 900px) {
+  .mobile {
+    margin-right: 22px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mobile img {
+    width: 130px;
+    height: 300px;
+  }
+}
+
 .box5 {
   margin-top: 100px;
 }
